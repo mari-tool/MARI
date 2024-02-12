@@ -11,6 +11,8 @@ clear the pip cache if necessary:
 
 `rm -rf ~/.cache/pip`
 
+install packages:
+
 `pip3 install cython==0.29.36`
 
 `xargs -n1 pip install < requirements.txt` (or `pip3`)
